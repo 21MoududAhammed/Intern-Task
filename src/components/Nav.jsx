@@ -6,7 +6,7 @@ export default function Nav() {
   const [isOpen, setIsOpen] = useState(false);
   return (
     <>
-      <div className="flex justify-between items-center bg-[#363636] text-white text-base  px-5 md:px-12 shadow h-16">
+      <div className="flex justify-between items-center bg-[#363636] text-white text-base  px-5 md:px-12  h-16 ">
         <button
           className="block md:hidden text-3xl"
           onClick={() => setIsOpen(!isOpen)}
